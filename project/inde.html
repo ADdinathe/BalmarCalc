@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Balmar's Calculator</h1>
+    <img src="https://thecode.media/wp-content/uploads/2020/08/unnamed-4-1.jpg">
+    <p class="explain"> Каким-то образом Балмер посчитал, что 0.129‰ – 0.138‰
+        алкоголя в крови открывают у него сверхчеловеческие способности к программированию:
+        он выпивал пару литров пива, входил в состояние лёгкого опьянения и мог продуктивно кодить.</p>
+    <p>
+       Пол:<br>
+        <input type="radio" name="a" id="sex_m" value="true"> М<br>
+        <input type="radio" name="a" id="sex_w" value="false"> Ж
+    </p>
+    <p>
+        Закуска(резорбция)<br>
+        <input type="radio" name="b" id="No_resorb" value="0.9"> Без закуски<br>
+        <input type="radio" name="b" id="Light_resorb" value="0.85"> Легкая закуска <br>
+        <input type="radio" name="b" id="Good_resorb" value="0.7"> Хорошая закуска
+    </p>
+    <p>Масса (кг):<input type="number" id="weight"></p>
+    <p>
+        крепость напистка(100%):<input type="number" id="Consetrate">
+        примерный объем выпитого(мл):<input type="number" id="Volume">
+    </p>
+    
+
+    <button class="bot8" onclick = "eval()"> Вычесть</button><br>
+    <p id="out"> Результат</p>
+    <script src="script.js"></script>
+</body>
+</html>
